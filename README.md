@@ -3,7 +3,7 @@
 [![API](https://img.shields.io/badge/API-16%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=16)
 
 
-[![Screenshot of the sample app](https://raw.github.com/xiaolongonly/PDFiumForAndroidDemo/master/lucky.png)](http://pre.im/b2h0)
+[![Screenshot of the sample app](https://github.com/xiaolongonly/PDFiumForAndroidDemo/blob/master/lucky.gif)](http://pre.im/b2h0)
 
 **PDFiumForAndroidDemo** 是一个基于[pdfium](https://pdfium.googlesource.com/pdfium/)的library [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)写的一个demo。
 
