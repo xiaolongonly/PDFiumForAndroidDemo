@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#f2f4f5</color>
+
+    <color name="main_normal_black_color">#666666</color>
+    <color name="main_blue_color">#1f89ed</color>
+
+    <!--切线-->
+    <color name="main_divider_color">#DBDBDB</color>
+    <!-- 重要级文字信息标题-->
+    <color name="main_black_color">#333333</color>
+</resources>

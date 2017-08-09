@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160px"
+        android:layout_height="200px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="16px"
+        android:background="@drawable/select_pdf_back"
+        android:padding="10px"
+        android:scaleType="centerInside"
+
+        />
+
+    <TextView
+        android:id="@+id/tvLocate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8px"
+        android:layout_marginTop="6px"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/main_black_color"
+        android:textSize="24px"
+        />
+</LinearLayout>

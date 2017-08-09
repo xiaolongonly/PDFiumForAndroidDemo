@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.xiaolong.pdfiumpdfviewer.pdf.PhotoViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"></cn.xiaolong.pdfiumpdfviewer.pdf.PhotoViewPager>
+
+    <ListView
+        android:id="@+id/lvGuide"
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:id="@+id/vGuide"
+        android:layout_width="50px"
+        android:layout_height="180px"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/lvGuide"
+        android:background="@drawable/corner_gray"
+        android:scaleType="fitCenter"
+        android:src="@drawable/select_viewer_state" />
+
+    <TextView
+        android:id="@+id/tvPosition"
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/corner6_gray"
+        android:gravity="center"
+        android:textColor="@color/main_black_color"
+        android:textSize="23px"
+        android:visibility="gone" />
+
+    <cn.xiaolong.pdfiumpdfviewer.pdf.CircleProgressBar
+        android:id="@+id/cpbLoad"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
