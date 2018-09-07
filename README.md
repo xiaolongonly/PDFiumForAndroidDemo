@@ -65,8 +65,7 @@
 # License
 
 ```
-Copyright 2017 Xiaolong 
 
-PDFiumForAndroidDemo is free software: you can redistribute it and/or modify.
+MIT License
 
 ```
